@@ -1,11 +1,7 @@
 #include <stdlib.h>
-#include <stdlib.h>
 #include <time.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+#include <stdio.h>
+
 int main(void)
 {
 	int n;
