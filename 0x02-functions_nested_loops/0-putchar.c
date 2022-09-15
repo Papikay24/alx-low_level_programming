@@ -1,8 +1,9 @@
+#include <main.h>
 #include "_putchar.h"
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success)
  */
 
@@ -12,10 +13,10 @@ int main(void)
 
 	while (*sh)
 	{
-		_putchar(*sh);
+		printf(*sh);
 		sh++;
 	}
-	_putchar('\n');
+	printf('\n');
 
 	return (0);
 }
