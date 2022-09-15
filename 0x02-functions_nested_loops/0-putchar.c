@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	char *sh = "_putchar";
+	const char *sh = "_putchar";
 
 	while (*sh)
 	{
-		printf(*sh);
+		_putchar(*sh);
 		sh++;
 	}
-	printf('\n');
+	_putchar('\n');
 
 	return (0);
 }
