@@ -4,7 +4,7 @@
 /**
  * print_numbers - a function that prints numbers
  *
- * Return: Always 0 (Success)
+ * Return: 0-9 followed by a new line
  */
 
 void print_numbers(void)
