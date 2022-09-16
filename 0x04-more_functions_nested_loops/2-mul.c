@@ -5,11 +5,10 @@
  * mul - a function that multiplies two integers
  * @a: integer
  * @b: integer
- * Return: 0
+ * Return: multiplication of two integers
  */
 
 int mul(int a, int b)
 {
-	calc("%d * %d\n", a, b);
-	return (0);
+	return (a * b);
 }
