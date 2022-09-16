@@ -5,11 +5,11 @@
  * mul - a function that multiplies two integers
  * @a: integer
  * @b: integer
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int mul(int a, int b)
 {
-	printf("%d * %d\n", a, b);
+	calc("%d * %d\n", a, b);
 	return (0);
 }
