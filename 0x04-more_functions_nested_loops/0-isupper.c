@@ -3,7 +3,7 @@
 
 /**
  * _isupper - a function that checks for uppercase letters
- *
+ * @c: single character input
  * Return: Always 0 (Success)
  */
 
@@ -11,6 +11,6 @@ int _isupper(int c)
 {
 	if ((c >= 'A') && (c <= 'Z'))
 		return (1);
-	else 
+	else
 		return (0);
 }

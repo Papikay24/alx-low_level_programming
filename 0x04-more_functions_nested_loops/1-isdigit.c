@@ -3,7 +3,7 @@
 
 /**
  * _isdigit - a function that checks for a digit
- *
+ * @c: single character input
  * Return: 1 if c is a digit, 0 if otherwise
  */
 
