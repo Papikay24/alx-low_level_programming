@@ -1,21 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * puts2 - a function that prints every other character of a string
- * @str: string input
+ * puts2 - function should print only one character out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
-
 void puts2(char *str)
 {
-	int i, len;
+	int i = 0;
 
-	len = strlen(str);
-
-	for (i = 0; i <= len; i++)
+	for (; str[i] != '\0'; i++)
 	{
-		printf("%c", str[i]);
+		if ((i % 2) == 0)										putchar(str[i]);
+		else
+														continue;
 	}
 	putchar('\n');
-
 }
