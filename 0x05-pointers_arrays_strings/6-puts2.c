@@ -7,5 +7,5 @@
 
 void puts2(char *str)
 {
-	printf("%d\n", *str);
+	putchar("%d\n", *str);
 }
