@@ -14,12 +14,12 @@ void reset_to_98(int *n)
 
 	n = 0;
 
-	int *m = &n;
+	int *n = &n;
 
-	printf("n=%p\n", m);
+	printf("n=%d\n", n);
 
 	*n = 98;
-	printf("n=%d\n", m);
+	printf("n=%d\n", n);
 
 	return (0);
 }
