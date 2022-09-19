@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	revstr(s);
 
-	printf("%s\n", s);
+	printf("%d\n", s);
 
 	return (0);
 }
