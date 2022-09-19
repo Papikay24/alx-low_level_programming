@@ -8,9 +8,7 @@
 
 void print_rev(char *s)
 {
-	revstr(s);
-
-	printf("%d\n", s);
+	printf("%s\n", s);
 
 	return (0);
 }
