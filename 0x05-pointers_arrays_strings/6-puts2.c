@@ -13,7 +13,7 @@ void puts2(char *str)
 
 	len = strlen(str);
 
-	for (i = 0; i <= len; 1++)
+	for (i = 0; i <= len; i++)
 	{
 		printf("%d", str[i]);
 	}
