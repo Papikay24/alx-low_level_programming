@@ -5,14 +5,15 @@
  * swap_int - a function that swaps the value of two integers
  * @a: integer value
  * @b: integer value
+ * @c: integer value
  * Return: swapped integer values
  */
 
 void swap_int(int *a, int *b)
 {
-	int a;
+	int c;
 
-	a = *a;
+	c = *a;
 	* a = *b;
-	* b = a;
+	* b = c;
 }
