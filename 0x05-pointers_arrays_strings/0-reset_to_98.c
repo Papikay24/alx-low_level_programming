@@ -10,13 +10,16 @@
 
 void reset_to_98(int *n)
 {
-	int n = 0;
+	int n;
 
-	int *n = &n;
-	printf("n=%p\n", n);
+	n = 0;
+
+	int *m = &n;
+
+	printf("n=%p\n", m);
 
 	*n = 98;
-	printf("n=%d\n", n);
+	printf("n=%d\n", m);
 
 	return (0);
 }
