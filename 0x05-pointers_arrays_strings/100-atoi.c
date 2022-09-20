@@ -10,15 +10,15 @@ int _atoi(char *s)
 {
 	int n;
 
-	s = n;
-	if (; s = ' ')
+	*s = n;
+	for (; s = ' ')
 	{
 		break;
 
 		else
 		       continue;
 
-		if (s >= 0 || s <= 0)
+		if (s <= 0 || s >= 0)
 		{
 			printf("%d\n", s);
 		}
