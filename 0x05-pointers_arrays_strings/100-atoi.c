@@ -11,16 +11,16 @@ int _atoi(char *s)
 	int n;
 
 	*s = n;
-	for (; s = ' ')
+	if (; *s = ' ';)
 	{
 		break;
 
 		else
 		       continue;
 
-		if (s <= 0 || s >= 0)
+		if (*s <= 0 || *s >= 0)
 		{
-			printf("%d\n", s);
+			printf("%d\n", *s);
 		}
 	}
 	return (0);
