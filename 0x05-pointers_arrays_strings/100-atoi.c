@@ -15,10 +15,7 @@ int _atoi(char *s)
 	{
 		break;
 
-		else
-		       continue;
-
-		if (*s <= 0 || *s >= 0)
+		else if (*s <= 0 || *s >= 0)
 		{
 			printf("%d\n", *s);
 		}
