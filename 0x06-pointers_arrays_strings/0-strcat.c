@@ -9,9 +9,12 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	*dest = NULL;
-	*src = NULL;
-
-	strcat(dest, *src);
+	for (; *dest != '\0'; dest++)
+	{
+	}
+	for (; *src != '\0'; src++)
+	{
+	}
+	strcat(*dest, *src);
 	return (dest);
 }
